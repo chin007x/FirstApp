@@ -1,17 +1,21 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Styles from './common-styles';
+import ColumnItems from './column-items';
+import CLayouts from './common-layous';
 
 export default function App() {
     return ( 
-        <View style = { styles.container } >
-        <Text style = { styles.textbold }>Supernova</Text>
-        <Text > Supernova </Text>
-        <StatusBar style = "auto" />
+        <View style = { Styles.container } >
+            <Text style = { Styles.TextTainer }>React Native</Text>
+            <Text > Supernova </Text>
+            <CLayouts/>
+            <StatusBar style = "auto" />
         </View>
     );
 }
-
+/*
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -24,4 +28,4 @@ const styles = StyleSheet.create({
         fontWeight: 'bild',
         color:'#fff',
     },
-});
+});*/
