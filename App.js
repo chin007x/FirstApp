@@ -2,7 +2,6 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, Alert, Button, TextInput } from 'react-native';
 import Styles from './common-styles';
-
 import TextInputDemo from './text-input-demo';
 import SwitchDemo from './switch-demo';
 import ImageDemo from './image-demo';
@@ -63,3 +62,4 @@ export default function App() {
       },
   });
   */
+ 
